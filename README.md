@@ -2,7 +2,7 @@
 Implemented a dynamic delta hedging strategy for google stock.
 Delta-hedging is a hedging strategy that aims to replicate the value of a financial derivative, such as a
 Call option, written on a traded asset through dynamically managing a proper number of shares of
-the underlying asset and risk free security.
+the underlying asset and risk free security. The complete project is written in C++ with keeping appropriate object oriented design considerations in mind. 
 The delta hedging process:
 1. Assuming a hedging window from t0 to tN . 
 2. At t0, we sell a European call option contract with expiration date T, strike price K. Assuming the option is written on one share of stock and t0 < tN ≤ T.
