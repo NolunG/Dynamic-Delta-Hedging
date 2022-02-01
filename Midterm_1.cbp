@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Midterm_1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Midterm_1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Midterm_1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Option.h" />
+		<Unit filename="include/Portfolio_PnL.h" />
+		<Unit filename="include/Price_Option.h" />
+		<Unit filename="include/Price_Simulator.h" />
+		<Unit filename="include/Stock.h" />
+		<Unit filename="include/Unit_Test.h" />
+		<Unit filename="include/normalCDF.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Option.cpp" />
+		<Unit filename="src/Portfolio_PnL.cpp" />
+		<Unit filename="src/Price_Option.cpp" />
+		<Unit filename="src/Price_Simulator.cpp" />
+		<Unit filename="src/Stock.cpp" />
+		<Unit filename="src/Unit_Test.cpp" />
+		<Unit filename="src/normalCDF.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
